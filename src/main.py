@@ -1,1 +1,1 @@
-print("Bienvenido a Class Max")
+print("Class Max funcionando")
