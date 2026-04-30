@@ -1,7 +1,10 @@
 # CLASS MAX – Software de Gestión Académica
 
 ## Integrantes
-- (Escribe aquí los nombres)
+#### JOAN NICOLAS LOPEZ FLOREZ  
+#### YAN PIHER ROMERO ZUHIGA 
+#### SERGIO ADOLFO RODRIGUEZ VELEZ 
+#### CRISTIAN DAVID OSPINA 
 
 ## Descripción
 Aplicación para gestionar materias, notas y calcular promedios académicos.
@@ -12,12 +15,3 @@ Aplicación para gestionar materias, notas y calcular promedios académicos.
 - IDE: Visual Studio Code
 - Tipo de interfaz: Escritorio (Tkinter)
 - class-max
-│
-├── README.md
-├── .gitignore
-│
-├── src/
-│   └── main.py
-│
-└── docs/
-    └── documentacion.md
