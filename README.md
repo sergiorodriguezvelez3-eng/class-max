@@ -11,3 +11,13 @@ Aplicación para gestionar materias, notas y calcular promedios académicos.
 - Base de Datos: SQLite
 - IDE: Visual Studio Code
 - Tipo de interfaz: Escritorio (Tkinter)
+- class-max
+│
+├── README.md
+├── .gitignore
+│
+├── src/
+│   └── main.py
+│
+└── docs/
+    └── documentacion.md
