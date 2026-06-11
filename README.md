@@ -37,3 +37,10 @@ La aplicación utiliza MySQL para almacenar la información de usuarios, materia
 * Cálculo de promedios.
 * Almacenamiento persistente en MySQL.
 * Diseño preparado para integración futura con Google Calendar API.
+## Integración futura
+
+El proyecto fue diseñado para integrar Google Calendar API mediante OAuth 2.0 con el objetivo de sincronizar recordatorios académicos y eventos importantes del estudiante.
+
+La documentación técnica se encuentra en:
+
+docs/GoogleCalendarAPI.md
