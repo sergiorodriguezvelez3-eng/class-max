@@ -25,7 +25,35 @@ POST
 ## Formato de intercambio
 
 JSON
+Ejemplo de Solicitud
 
-## Estado
+{
+"summary": "Entrega Proyecto Arquitectura",
+"start": {
+"dateTime": "2026-06-15T08:00:00"
+},
+"end": {
+"dateTime": "2026-06-15T10:00:00"
+}
+}
 
-Diseño documentado y pendiente de implementación.
+Ejemplo de Respuesta
+
+{
+"id": "abc123",
+"status": "confirmed",
+"htmlLink": "https://calendar.google.com/..."
+}
+
+Flujo de Integración
+Usuario registra actividad académica.
+Sistema almacena la información en MySQL.
+Usuario autoriza acceso mediante OAuth 2.0.
+PHP obtiene Access Token.
+PHP consume Google Calendar API.
+Google crea el evento.
+Usuario recibe recordatorio en Google Calendar.
+Estado
+
+Diseño técnico documentado.
+Implementación pendiente por restricciones de tiempo del proyecto.
